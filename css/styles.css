@@ -674,6 +674,9 @@ img {
 label {
 }
 
+.modal-label-div {
+  margin-bottom: 8px;
+}
 .modal-label {
   display: block;
   margin-bottom: 4px;
@@ -685,7 +688,6 @@ label {
 
 .modal-form-area {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-form-input,
