@@ -724,6 +724,16 @@ label {
   border-color: var(--accent-color);
 }
 
+.modal-form-area {
+  margin-bottom: 8px;
+}
+
+.modal-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
 .modal-form-icon {
   position: absolute;
   top: 50%;
