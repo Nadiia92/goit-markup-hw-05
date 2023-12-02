@@ -532,6 +532,9 @@ img {
 
 .text-background-dark {
     color: var(--accent-white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .footer-subscribe>.text-background-dark {
@@ -552,6 +555,10 @@ img {
     border: 1px solid var(--accent-white-color);
     border-radius: 4px;
     color: var(--accent-white-color);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .btn-footer {
@@ -561,11 +568,16 @@ img {
     justify-content: center;
     padding-left: 24px;
     padding-right: 24px;
+    min-width: 165px;
     cursor: pointer;
     background-color: var(--accent-color);
     border-radius: 4px;
+    border: none;
     border-color: transparent;
     color: var(--accent-white-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     transition: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
