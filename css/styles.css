@@ -796,7 +796,7 @@ label {
 }
 
 .modal-form-checkbox:checked {
-  background-color: var(--hero-hover-color);
+  background-color: #404bbf;
   border-color: var(--hero-hover-color);
   border: none;
   fill: #f4f4fd;
@@ -820,7 +820,7 @@ label {
 }
 
 .modal-link {
-  color: var(--accent-color);
+  color: #4d5ae5;
 }
 
 .button-submit {
